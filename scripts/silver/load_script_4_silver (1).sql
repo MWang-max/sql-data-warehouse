@@ -64,3 +64,9 @@ WHERE bdate > '2026-01-01'
 SELECT DISTINCT -- check genders
 gen
 FROM silver.erp_cust_az12
+
+SELECT 
+* 
+FROM silver.erp_cust_az12
+
+DROP TABLE IF EXISTS silver.erp_cust_az12
